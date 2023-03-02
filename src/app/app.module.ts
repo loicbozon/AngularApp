@@ -14,10 +14,13 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { TodoComponent } from './Todolist/todo.component';
+
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
   imports: [
+    TodoComponent,
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAnalyticsModule,
