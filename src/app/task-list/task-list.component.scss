@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+
+    ul {
+        border: 1px solid grey;
+        width: 200px;
+
+        li {
+            cursor: move;
+        }
+    }
+}
