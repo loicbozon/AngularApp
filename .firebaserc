@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "moviedevmobile": {
+      "hosting": {
+        "movie-dev-mobile": [
+          "moviedevmobile"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "moviedevmobile"
+  }
+}

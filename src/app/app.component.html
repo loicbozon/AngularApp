@@ -1,2 +1,7 @@
 <movie-dev-mobile-nx-welcome></movie-dev-mobile-nx-welcome>
 <router-outlet></router-outlet>
+<ul>
+    <li class="text" *ngFor="let item of items | async">
+      {{item.name}}
+    </li>
+  </ul>

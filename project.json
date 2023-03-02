@@ -103,6 +103,16 @@
           "codeCoverage": true
         }
       }
+    },
+    "deploy": {
+      "executor": "@angular/fire:deploy",
+      "options": {
+        "prerender": false,
+        "ssr": false,
+        "browserTarget": "movie-dev-mobile:build:production",
+        "firebaseProject": "moviedevmobile",
+        "firebaseHostingSite": "moviedevmobile"
+      }
     }
   },
   "tags": []
